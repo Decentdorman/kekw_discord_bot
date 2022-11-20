@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import secrets
 import wavelink
 
 client = commands.Bot(command_prefix="!", intents=discord.Intents.all())

@@ -92,3 +92,4 @@
 2022-11-20 12:06:35.325  INFO 26852 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtPQ3kzRk1zZUh0dyiu-OebBg%3D%3D, next update will be after 600 seconds.
 2022-11-20 12:07:28.050  INFO 26852 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op": "destroy", "guildId": "831508122291404800"}
 2022-11-20 12:10:51.817  INFO 26852 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:1181 with status CloseStatus[code=1006, reason=] -- Session can be resumed within the next 60 seconds with key 8ff86f28b29bf0c1
+2022-11-20 12:11:51.824  INFO 26852 --- [pool-2-thread-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
