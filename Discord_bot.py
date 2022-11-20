@@ -22,8 +22,7 @@ bot = commands.Bot(command_prefix=commands.when_mentioned_or("."),
 bot.remove_command('help')
 
 
-async def main():
-    await bot.add_cog(music_cog.Music(bot))
-    await bot.add_cog(general_cog.General(bot))
+bot.add_cog(music_cog.Music(bot))
+bot.add_cog(general_cog.General(bot))
 
 bot.run(TOKEN)
