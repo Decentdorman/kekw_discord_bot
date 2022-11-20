@@ -1,16 +1,13 @@
 import discord
-import os
-
+import config
 from cogs import general_cog
 from cogs import music_cog
 
-from dotenv import load_dotenv
+
 from discord.ext import commands
 
 
-'load_dotenv()'
-'TOKEN = os.getenv("DISCORD_TOKEN")'
-TOKEN = "MTA0MzY3NDkwNDMyODk0MTU3OQ.GXcbgk.c2-0eakgQPCl6TSdMhrYDxxmSvxyfwbEjpNgPs"
+TOKEN = config.token
 
 intents=discord.Intents.all()
 
